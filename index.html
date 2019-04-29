@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Checking session...</title>
+        <script src="js/jquery.js"></script>
+        <script src="js/constants.js"></script>
+        <script type="text/javascript">
+            $.ajax({
+                type: 'GET',
+                url: 'http://localhost/kongsibackend/php/check-session.php',
+                dataType: 'text',
+                cache: false,
+                success: function(a) {
+                    var result = parseInt(a);
+                    if (result === -1) {
+                        document.location = "login.html";
+                    } else if (result === 0) {
+                        document.location = "home.html";
+                    }
+                }
+            });
+        </script>
+    </head>
+</html>

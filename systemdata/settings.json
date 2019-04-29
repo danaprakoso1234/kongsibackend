@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "banks": [
+      {
+        "holder": "ANDI SUPARTO",
+        "number": "8910 374 312",
+        "type": "2"
+      },
+      {
+        "type": "5",
+        "holder": "ANDI SUPARTO",
+        "number": "900 00 4200200 7"
+      }
+    ]
+  }
+}

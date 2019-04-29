@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <common>
+        <autostart>1</autostart>
+        <full-epg>1</full-epg>
+        <active-subtitle>1</active-subtitle>
+        <user-agent>Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36</user-agent>
+        <language>0</language>
+    </common>
+    <epgtimeshift>0</epgtimeshift>
+    <stream-format>1</stream-format>
+    <time-format>1</time-format>
+    <epg-time-line>1</epg-time-line>
+    <automation>
+        <auto-update-channels>1</auto-update-channels>
+        <auto-update-epg>0</auto-update-epg>
+    </automation>
+    <control-password>a</control-password>
+    <player>
+        <app>0</app>
+        <decoder>1</decoder>
+        <enable-opensl-es>1</enable-opensl-es>
+        <enable-opengl>0</enable-opengl>
+    </player>
+</settings>
