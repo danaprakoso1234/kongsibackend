@@ -1,4 +1,4 @@
-const HOST = "kongsikongsi.com";
+const HOST = "localhost";
 const ROOT_URL = "http://"+HOST+"/kongsibackend/";
 const PHP_URL = ROOT_URL+"php/";
 const PHP_PATH = PHP_URL;
