@@ -1,3 +1,4 @@
 <?php
 include 'db.php';
-$c->query("")
+$vehicleID = intval($_POST["vehicle_id"]);
+$c->query("DELETE FROM vehicles WHERE id=" . $vehicleID);

@@ -87,10 +87,12 @@ function setListeners() {
                 cache: false,
                 success: function(a) {
                     vehicles.splice(index, 1);
+                    $("#vehicles").find("tr:eq("+index+")").remove();
                     hideProgress();
                 }
             });
         });
+        $("#confirm-container").css("display", "flex").hide().fadeIn(300);
     });
 }
 
